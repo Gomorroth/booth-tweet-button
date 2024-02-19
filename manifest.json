@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Booth Tweet Button",
+    "description": "Not X",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "js": [
+                "index.js"
+            ],
+            "matches": [
+                "*://*.booth.pm/items/*",
+                "*://booth.pm/*/items/*"
+            ]
+        }
+    ]
+}
