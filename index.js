@@ -1,6 +1,6 @@
 const shareButton = document.getElementById("js-item-share-buttons");
 const title = document.querySelector("header h2")?.textContent;
-const shopUrl = document.querySelector("header.shop__text a[data-product-list]")?.getAttribute("href");
+const shopUrl = document.querySelector("header.shop__text a[data-product-list='from market_show via market_item_detail to shop_index']")?.getAttribute("href");
 var url = window.location.href;
 
 if (url.startsWith("https://booth.pm/") && shopUrl != null)
